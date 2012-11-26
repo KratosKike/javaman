@@ -10,13 +10,16 @@ import java.util.*;
 import javax.servlet.*;
 import javax.servlet.http.*;
 
-
 /*
  * LoginServlet realiza el inicio de sesión. 
  * este el punto de entrada en el sistema,  donde se asigna el pool de conexiones de base de datos 
  * ocurre la primera vez que el servlet se ejecuta. 
  */
 public class LoginServlet extends HttpServlet{
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 7379585428398443212L;
 	// datos desde el formulario de acceso
 	public void service(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException{
 		

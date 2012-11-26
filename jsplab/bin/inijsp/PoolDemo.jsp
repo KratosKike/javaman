@@ -49,7 +49,7 @@
 <jsp:param value="State" name="columnHeader"/>
 
 <jsp:param value="country" name="column"/>
-<jsp:param value="data" name="ColumnType"/>
+<jsp:param value="data" name="ColumnType"/>|		
 <jsp:param value="Country" name="columnHeader"/>
 
 <jsp:param value="postalCode" name="column"/>
